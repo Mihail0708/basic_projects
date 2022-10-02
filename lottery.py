@@ -2,7 +2,7 @@ import random
 
 
 winning_numbers = []
-player_numbers = input('Welcome to the lottery 6/49.\nPlease in input your six numbers separated by coma and press enter.\n').split(',')
+player_numbers = input('Welcome to the lottery 6/49.\nPlease type your six numbers separated by coma and press enter.\n').split(',')
 player_list = list(map(int, player_numbers))
 winners = []
 
